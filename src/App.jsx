@@ -4,47 +4,6 @@ function Test {
     return (
         <Banner/>
     )
-    function Test {
-    return (
-        <Banner/>
-    )
-}
-function Test {
-    return (
-        <Banner/>
-    )
-}
-function Test {
-    return (
-        <Banner/>
-    )
-}
-function Test {
-    return (
-        <Banner/>
-    )
-}
-function Test {
-    return (
-        <Banner/>
-    )
-}
-function Test {
-    return (
-        <Banner/>
-    )
-}
-function Test {
-    return (
-        <Banner/>
-    )
-}
-function Test {
-    return (
-        <Banner/>
-    )
-}
-
 }
 
 export default Test
