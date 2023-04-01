@@ -22,8 +22,7 @@ const Formulario = () => {
     const [time, setTime] = useState('')
 
     const aoSalvar = (evento) => {
-        evento.preventDefault();
-        
+        evento.preventDefault();        
         
     }
 
@@ -34,22 +33,25 @@ const Formulario = () => {
                 <CampoTexto 
                     required={true} 
                     label="Nome" 
-                    placeholder="Digite o seu nome" />
+                    placeholder="Digite o seu nome" 
                     valor = {nome}
                     aoAlterado = {valor => setNome(valor)}
+                    />
 
                 <CampoTexto 
                     required={true} 
                     label="Cargo" 
-                    placeholder="Digite o seu cargo" />
+                    placeholder="Digite o seu cargo" 
                     valor = {cargo}
                     aoAlterado = {valor => setCargo(valor)}
+                    />
 
                 <CampoTexto 
                     label="Imagem" 
-                    placeholder="Digite o endereço da imagem" />
+                    placeholder="Digite o endereço da imagem" 
                     valor = {imagem}
                     aoAlterado = {valor => setImagem(valor)}
+                    />
                 
                 <ListaSuspensa 
                     required={true} 
